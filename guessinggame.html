@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+ 			<meta charset = "utf-8">
+	       
+ 			<link href='http://fonts.googleapis.com/css?family=Raleway:800,700' rel='stylesheet' type='text/css'>
+ 			<link rel = "stylesheet" type="text/css" href = "bootstrap.min.css">
+ 			<link rel = "stylesheet" type="text/css" href = "main_new.css">
+ 			<title>Fullstack Foundations | Guessing Game</title> 
+ 	</head>
+ 	
+
+ 	<body>
+ 		<div class = "container">
+ 		
+	 		
+	     		<div class = "MainTitle">
+	 				<p>GUESS THE NUMBER</p>
+	 			</div>
+	 			
+		
+	 			<div class = "NumberInput">
+	 				<input type = "text" id = "playersguess" placeholder = "Input Number 1-100" aria-describedby="basic-addon1">
+	 			</div>
+	 			
+				<div id = "go-button">
+	 				<button type="button" id = "Go" class = "btn btn-primary btn-lg center-block">GO!</button>
+	 				<br>
+	 			</div>
+
+	 			<div id = "lower-buttons">
+	 				<p class = "text-center">
+	 				<button type="button" id = "Reset" class="btn btn-primary">Restart</button>
+	 				
+	         		<button type="button" id = "Hint" class="btn btn-primary">Hint</button>
+	         	    </p>
+	     	 	</div>
+
+	     	 	<div id = 'Direction'>
+	     	 	<h2 class = "text-center"><span id = "Temperature"></span><span id = "direction"></span></h2> 
+	     	 	</div>
+
+				<div class = "GuessRem">
+	      		  	<p id = "NumGuess">You have 5 <span id ="guesstext">guesses remaining</span></p>
+	      		  	<h1 id="answer"></h1>
+
+				</div>
+
+
+	</div>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type= "text/javascript" src="guessgame2.js"></script>
+ 	
+		
+ 	</body>		
+
+ </html>
+

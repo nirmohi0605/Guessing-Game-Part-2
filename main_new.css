@@ -1,0 +1,71 @@
+
+body{
+  background: url("sherlock_title.png");
+  background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size:cover;
+   height: 100%;
+   min-height: 100%;
+}
+
+
+.wrap {
+   position: absolute;
+   z-index: -1;
+}
+.MainTitle{
+    
+    color: #333333;
+    text-align:center;
+    
+    margin: 20px 0;
+    font-size: 5.99em;
+    font-weight:9000;
+    height:120px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:40px;
+
+}
+
+.NumberInput{
+    max-width = 940px;
+    margin: 0 auto;
+    text-align:center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.btn{
+    background: #333333;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+#lower-buttons{
+  margin-top: 10px;
+  margin:right: 5px;
+  
+}
+
+#Direction{
+  color: white;
+ font-family: 'Raleway', sans-serif;
+ margin-bottom: 20px; 
+ margin-top: 40px;
+}
+
+
+.GuessRem{
+	max-width = 940px;
+  text-align:center;
+    color: #333333;
+    color: white;
+  font-size: 20px;
+  
+    font-family: 'Raleway', sans-serif;
+
+}
+
